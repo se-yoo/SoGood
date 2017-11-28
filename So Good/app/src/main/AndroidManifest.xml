@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gigamole.sample">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity
+            android:name=".Today_Good"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity android:name=".Good_Introduce" />
+        <activity android:name=".Heart" />
+        <activity android:name=".SquareSticker" />
+        <activity android:name=".Domusong" />
+        <activity android:name=".Jeonchase" />
+        <activity android:name=".Removable" />
+        <activity android:name=".Print" />
+        <activity android:name=".Poster" />
+        <activity android:name=".Polaroid" />
+        <activity android:name=".IDpicture" />
+        <activity android:name=".Wallet" />
+        <activity android:name=".Calender" />
+        <activity android:name=".Garadeda" />
+        <activity android:name=".Photobook" />
+        <activity android:name=".Photocard" />
+        <activity android:name=".Transparent" />
+        <activity android:name=".Hologram" />
+        <activity android:name=".Foliation" />
+        <activity android:name=".Postcard" />
+        <activity android:name=".Minibanner" />
+        <activity android:name=".TransparentBanner" />
+        <activity android:name=".CanvasBanner" />
+        <activity android:name=".PomboardBanner" />
+        <activity android:name=".Deungsindae" />
+        <activity android:name=".CircularMirror" />
+        <activity android:name=".CardMirror" />
+        <activity android:name=".MirrorButton" />
+        <activity android:name=".MirrorFrame" />
+        <activity android:name=".Memo" />
+        <activity android:name=".SpringNote" />
+        <activity android:name=".Scheduler" />
+        <activity android:name=".StudyPlanner" />
+        <activity android:name=".Sketchbook" />
+        <activity android:name=".Postit" />
+        <activity android:name=".PinButton" />
+        <activity android:name=".Blanket" />
+        <activity android:name=".Cushion" />
+        <activity android:name=".Pouch" />
+        <activity android:name=".Fan" />
+        <activity android:name=".Glasses" />
+        <activity android:name=".Puzzle" />
+        <activity android:name=".MousePad" />
+        <activity android:name=".PhoneCase" />
+        <activity android:name=".Tumbler" />
+        <activity android:name=".Bottle" />
+        <activity android:name=".Mug"></activity>
+    </application>
+
+</manifest>
